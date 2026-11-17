@@ -12,7 +12,7 @@
 
 ---
 
-I'm a student at WashU and I've spent the last couple of years shipping software for startups, schools, small businesses and a pediatric practice. Most of the job turns out to be figuring out what people actually need before writing code, then sticking around after launch to fix what breaks. I like that part.
+I graduated from WashU in May 2026, and I've spent the last couple of years shipping software for startups, schools, small businesses and a pediatric practice. Most of the job turns out to be figuring out what people actually need before writing code, then sticking around after launch to fix what breaks. I like that part.
 
 ## What I've built
 
