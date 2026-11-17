@@ -1,44 +1,27 @@
-# Hi, I'm Fortuna Kadima 👋
+# Fortuna Kadima
 
-**Software engineer who builds with customers, not just for them.**<br>
-I take messy, real-world problems from clients and small teams, scope them, ship production software, and stay on to make sure it works in their hands. I've built education, freight logistics, healthcare and AI-automation products, often as the only engineer, from the first call to deploy.
+I'm a software engineer based in St. Louis and a student at WashU. Most of what I build is for real clients: schools, small businesses, a pediatric practice, a trucking startup. So a lot of my time goes into figuring out what people actually need before I write any code, and sticking around after launch to fix what breaks.
 
-📍 St. Louis, MO · 🎓 Washington University in St. Louis · 💼 Open to **Forward Deployed Engineer**, **Software Engineer** and **Technical Program Manager** roles
+I'm currently looking for forward deployed engineer, software engineer, and TPM roles.
 
----
+## What I've been working on
 
-## 🚀 Featured work
+**[Connect](https://connectalum.com).** I co-founded Connect, which pairs high school students with alumni from their own school who can help them figure out scholarships, camps and what comes after graduation. I've worked on both the product and engineering side: mentor and peer matching, progress tracking for schools, moderation to keep things safe for students, and Insight, a tool district leaders use to keep up with new policies and grant money.
 
-### [Connect](https://connectalum.com): Co-founder
-A platform that connects high school students with alumni mentors to guide them toward scholarships, camps and career paths after graduation. It's used by high schools nationwide.
-- Built and shipped the product suite: student–alumni mentorship, peer communities, real-time progress tracking for schools, and AI moderation with message monitoring to keep students safe.
-- Led product and delivery across engineering, design and school stakeholders. That included **Insight**, a policy and grant tracker for district leaders, plus the recruiting and enrollment tools.
+**Attention.** Checks whether ChatGPT, Gemini, Claude, Perplexity and Google's AI Overviews recommend a given local business, pushes schema markup changes to that business's website (a person approves each one first), then measures whether the change actually helped. My biggest project so far, at around 300 commits.
 
-### More projects
+**Haul Hero.** A freight app for brokers, carriers and drivers, with a load board, leasing onto an MC authority, GPS tracking, driver payouts and BOL/POD uploads. Flutter on mobile, plus a web dashboard, all on Supabase.
 
-| Project | What it does | Stack |
-|---|---|---|
-| **Attention** | Tracks whether a local business gets recommended by ChatGPT, Gemini, Claude, Perplexity and Google AI Overviews, then serves human-approved schema markup to the client's site and measures whether each change moved the needle. 300+ commits, CI, end-to-end tests and an extraction eval harness. | TypeScript · Next.js · Supabase · GitHub Actions · LLM APIs |
-| **Haul Hero** | Freight and logistics platform connecting brokers, carriers and drivers: load board, MC leasing, live GPS tracking, driver wallets and digital BOL/POD documents. | Flutter · Supabase · Firebase · Vercel |
-| **Rose Pediatrics Care** | Production website for a pediatric practice in Maryland: installable PWA with offline support, WCAG 2.1 AA accessibility, structured-data SEO and an appointment-request email flow. | Next.js 14 · Tailwind · Workbox · Nodemailer |
-| **STL Security Lead Finder** | Automated lead generation for a security business: finds jobs within an hour of St. Louis, emails new leads every morning and an AI-written brief of top opportunities every Friday. | Python · Claude API · GitHub Actions |
-| **[FWW Admin Dashboard](https://fww-admin.vercel.app)** | School admin dashboard for tracking student-athlete progress, with per-school data isolation through Postgres row-level security. Connected and deployed for a client. | Next.js 15 · TypeScript · Supabase · Vercel |
-| **Sports Karma** | Live sports, called by the crowd: plays from games in progress land in a feed and users vote them up or down in real time to earn karma. | Expo (React Native + web) · Firebase · live ESPN data |
+**Rose Pediatrics Care.** Website for a pediatric practice in Maryland. You can install it like an app, it works offline, it meets WCAG 2.1 AA, and appointment requests go straight to the office's inbox.
 
-## 🧭 How I work
+**Security lead finder.** A Python tool for a security company that looks for jobs within an hour of St. Louis. It emails new leads every morning and a summary of the best ones every Friday, and it runs on a schedule with GitHub Actions.
 
-- **Customer-facing delivery:** I turn a client conversation into a scoped plan, a working build and a handoff doc they can run with.
-- **Program and team leadership:** As a co-founder, I coordinate engineers, designers and school partners from roadmap to launch.
-- **AI-native engineering:** I build with LLM APIs and coding agents every day, and I put guardrails around them: evals, fixture modes so tests don't cost money, secret scanning and human review.
+**[FWW admin dashboard](https://fww-admin.vercel.app).** A dashboard schools use to track how their student-athletes are progressing. I hooked it up to Supabase, set up row-level security so each school only sees its own students, and deployed it.
 
-## 🛠️ Tech stack
+**Sports Karma.** An Expo app where people vote on plays from live games while they're happening.
 
-**Languages:** TypeScript · JavaScript · Python · C# · SQL · Dart<br>
-**Frontend & mobile:** React · Next.js · React Native / Expo · Flutter · Tailwind CSS<br>
-**Backend & data:** Supabase (Postgres, Auth, RLS) · Firebase · Node.js · REST APIs<br>
-**Cloud & DevOps:** Vercel · GitHub Actions · Cloudflare<br>
-**AI:** Claude / OpenAI / Gemini APIs · LLM evaluation · agentic coding tools
+## Tools I use most
 
----
+TypeScript, Python, React, Next.js, React Native (Expo), Flutter, Supabase/Postgres, Firebase, Vercel and GitHub Actions. I also work in C# and SQL, and I use the Claude and OpenAI APIs a lot.
 
-<sub>Most of my client work lives in private repos. Happy to walk through any of it on a call.</sub>
+Most of my client work is in private repos. If you'd like to see any of it, reach out and I'll walk you through it.
