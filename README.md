@@ -1,27 +1,50 @@
-# Fortuna Kadima
+<h1 align="center">Fortuna Kadima</h1>
 
-I'm a software engineer based in St. Louis and a student at WashU. Most of what I build is for real clients: schools, small businesses, a pediatric practice, a trucking startup. So a lot of my time goes into figuring out what people actually need before I write any code, and sticking around after launch to fix what breaks.
+<p align="center">
+  Software engineer and co-founder of <a href="https://connectalum.com">Connect</a>. I build software for real clients, from the first call to launch day.
+</p>
 
-I'm currently looking for forward deployed engineer, software engineer, and TPM roles.
+<p align="center">
+  <a href="https://connectalum.com"><img src="https://img.shields.io/badge/Connect-connectalum.com-0A66C2?style=flat-square" alt="Connect"></a>
+  <img src="https://img.shields.io/badge/Based%20in-St.%20Louis-555?style=flat-square" alt="St. Louis">
+  <img src="https://img.shields.io/badge/Open%20to-FDE%20%C2%B7%20SWE%20%C2%B7%20TPM-2ea44f?style=flat-square" alt="Open to FDE, SWE, TPM">
+</p>
 
-## What I've been working on
+---
 
-**[Connect](https://connectalum.com).** I co-founded Connect, which pairs high school students with alumni from their own school who can help them figure out scholarships, camps and what comes after graduation. I've worked on both the product and engineering side: mentor and peer matching, progress tracking for schools, moderation to keep things safe for students, and Insight, a tool district leaders use to keep up with new policies and grant money.
+I'm a student at WashU and I've spent the last couple of years shipping software for startups, schools, small businesses and a pediatric practice. Most of the job turns out to be figuring out what people actually need before writing code, then sticking around after launch to fix what breaks. I like that part.
 
-**Attention.** Checks whether ChatGPT, Gemini, Claude, Perplexity and Google's AI Overviews recommend a given local business, pushes schema markup changes to that business's website (a person approves each one first), then measures whether the change actually helped. My biggest project so far, at around 300 commits.
+## What I've built
 
-**Haul Hero.** A freight app for brokers, carriers and drivers, with a load board, leasing onto an MC authority, GPS tracking, driver payouts and BOL/POD uploads. Flutter on mobile, plus a web dashboard, all on Supabase.
+### Final Whistle Wealth · [App Store](https://apps.apple.com/us/app/final-whistle-wealth/id6760211777) · [Google Play](https://play.google.com/store/apps/details?id=com.finalwhistlewealth.app) · [Admin dashboard](https://fww-admin.vercel.app)
+A financial wellness app for college and pro athletes, built for founders who are former Wake Forest football players. I built and shipped the mobile app on iOS and Android: linked bank accounts, real-time spending and category budgets, plus short lessons and quizzes on taxes, credit and investing. I also built the admin dashboard athletic departments use to track their athletes' progress. It uses row-level security so each school only sees its own athletes, and no one's financial data is exposed.
+`iOS` `Android` `Next.js` `TypeScript` `Supabase`
 
-**Rose Pediatrics Care.** Website for a pediatric practice in Maryland. You can install it like an app, it works offline, it meets WCAG 2.1 AA, and appointment requests go straight to the office's inbox.
+### [Connect](https://connectalum.com) · co-founder
+Pairs high school students with alumni from their own school who help them with scholarships, camps and life after graduation. I work across product and engineering: mentor and peer matching, progress tracking for schools, moderation so it's safe for students, and **Insight**, which district leaders use to keep up with new policies and grant money.
 
-**Security lead finder.** A Python tool for a security company that looks for jobs within an hour of St. Louis. It emails new leads every morning and a summary of the best ones every Friday, and it runs on a schedule with GitHub Actions.
+### Attention
+Checks whether ChatGPT, Gemini, Claude, Perplexity and Google's AI Overviews recommend a local business. It pushes schema markup to the business's site, with a person approving each change, then measures whether the change helped. It's my biggest project so far, with about 300 commits, CI, end-to-end tests and an eval suite.
+`TypeScript` `Next.js` `Supabase` `GitHub Actions`
 
-**[FWW admin dashboard](https://fww-admin.vercel.app).** A dashboard schools use to track how their student-athletes are progressing. I hooked it up to Supabase, set up row-level security so each school only sees its own students, and deployed it.
+### Haul Hero
+A freight platform for brokers, carriers and drivers: load board, leasing onto an MC authority, live GPS tracking, driver payouts and BOL/POD uploads.
+`Flutter` `Supabase` `Firebase` `Vercel`
 
-**Sports Karma.** An Expo app where people vote on plays from live games while they're happening.
+### Rose Pediatrics Care
+Website for a pediatric practice in Maryland. It installs like an app, works offline, meets WCAG 2.1 AA accessibility, and sends appointment requests straight to the front desk.
+`Next.js` `Tailwind` `PWA`
 
-## Tools I use most
+### Security lead finder
+Built for a security company. It finds jobs within an hour of St. Louis, emails new leads every morning and sends a summary of the best ones every Friday. It runs itself on a schedule.
+`Python` `Claude API` `GitHub Actions`
 
-TypeScript, Python, React, Next.js, React Native (Expo), Flutter, Supabase/Postgres, Firebase, Vercel and GitHub Actions. I also work in C# and SQL, and I use the Claude and OpenAI APIs a lot.
+## What I work with
 
-Most of my client work is in private repos. If you'd like to see any of it, reach out and I'll walk you through it.
+<p>
+  <img src="https://skillicons.dev/icons?i=ts,js,python,cs,react,nextjs,flutter,tailwind,nodejs,supabase,postgres,firebase,vercel,githubactions&perline=14" alt="Tech stack">
+</p>
+
+---
+
+<sub>Most of my client work is in private repos. If you'd like to see something, reach out and I'll walk you through it.</sub>
